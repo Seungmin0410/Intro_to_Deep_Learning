@@ -21,15 +21,8 @@
 
 ### 3. Final Project: Model Compression via Pruning
 * **File:** `05_final_project_pruning.py`
-* **Description:** Advanced project focused on hardware-aware model optimization using weight pruning techniques for efficient AI.
+* **Description:** Project on optimization using weight pruning techniques for efficient AI.
 * **Features:**
     * **L1 Unstructured Pruning:** Removed 70% of network weights using `torch.nn.utils.prune`.
     * **Fine-tuning:** Recovered model accuracy through post-pruning training cycles.
     * **Analysis:** Calculated total/pruned parameter counts and final pruning ratio for efficiency verification.
-
-
-## 💻 How to Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Seungmin0410/Intro_to_Deep_Learning.git](https://github.com/Seungmin0410/Intro_to_Deep_Learning.git)
